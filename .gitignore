@@ -1,0 +1,34 @@
+# Python cache files
+__pycache__
+
+# Environment variables
+*.env
+
+# Database files
+db.sqlite3
+
+# Virtual environment directory
+venv/
+
+# Test coverage data
+coverage.xml
+.coveragerc
+
+# Media directory (store uploaded files here)
+media/
+
+# Node modules (npm packages)
+node_modules/
+
+# IntelliJ IDEA project files (optional)
+.idea/
+*.iml
+
+# VS Code workspace files (optional)
+.vscode/
+
+# Virtual environment
+_env
+
+# Notes file
+ReadThisNotesFile!!!.txt
