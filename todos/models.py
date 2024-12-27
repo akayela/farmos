@@ -31,6 +31,7 @@ class Status(models.Model):
         return self.status
 
 class Analysis(models.Model):
+    task = models.ForeignKey(Task, on_delete=models.CASCADE)
     status = models.ForeignKey(Status, on_delete=models.CASCADE)
     question_1 = models.CharField(max_length=255)
     answer_1 = models.TextField()
