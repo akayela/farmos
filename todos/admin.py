@@ -1,13 +1,11 @@
 from django.contrib import admin
 from .models import(
     Task,
-    TaskStatusChange,
-    Why,
-    Answer,
+    Status,
+    Analysis,
 )
 # Register your models here.
 
 admin.site.register(Task)
-admin.site.register(TaskStatusChange)
-admin.site.register(Why)
-admin.site.register(Answer)
+admin.site.register(Status)
+admin.site.register(Analysis)
