@@ -11,6 +11,7 @@ class Task(models.Model):
     
     class Meta:
         verbose_name = "Task"
+        verbose_name_plural = "Tasks"
 
     def __str__(self):
         return self.title
@@ -26,6 +27,7 @@ class Status(models.Model):
     
     class Meta:
         verbose_name = "Status"
+        verbose_name_plural = "Statuses"
 
     def __str__(self):
         return self.status
@@ -49,6 +51,7 @@ class Analysis(models.Model):
 
     class Meta:
         verbose_name = "Analysis"
+        verbose_name_plural = "Analyses"
 
     def __str__(self):
         return self.solution
